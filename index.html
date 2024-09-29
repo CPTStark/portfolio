@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+    <link rel="stylesheet" href="styles/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <title>Portfólio - Gabriel Prestes Perez</title>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&family=Inconsolata:wght@200..900&family=Maven+Pro:wght@400..900&display=swap" rel="stylesheet">
+</head>
+<body class="overflow-x-hidden bg-gray200">
+    
+    <header class="w-full flex justify-center items-center" id="inicio">
+        <nav class="flex gap-10 mt-10 px-8">
+            <button class="buttons-scroll header-btn font-semibold text-subtitle text-gray600 hover:bg-gray300 p-2 rounded-xl transition-hover duration-300">
+                Meu trabalho
+            </button>
+            <button class="buttons-scroll header-btn font-semibold text-subtitle text-gray600 hover:bg-gray300 p-2 rounded-xl transition-hover duration-300">
+                Meus Serviços
+            </button>
+            <button class="buttons-scroll header-btn font-semibold text-subtitle text-gray600 hover:bg-gray300 p-2 rounded-xl transition-hover duration-300">
+                Contato
+            </button>
+        </nav>
+    </header>
+
+    <div class="h-screen w-screen bg-intro bg-cover bg-center flex justify-center">
+        <div class="flex flex-col items-center justify-center">
+            <div class="w-100 h-100 flex items-center justify-center mb-14">
+                <div class="w-[103px] h-[103px] flex justify-center items-center rounded-full relative" style="border: 3px solid #E3646E;">
+                    <img src="assets/images/gabriel.png"
+                    alt=""
+                    class="w-[88px] h-[88px] rounded-full"
+                    />
+
+                    <img class="absolute top-[71px] left-[61px]" src="assets/icons/code-icon.png" alt="">
+                </div>
+            </div>
+            <div class="flex items-center justify-center flex-col">
+                <p class="subtitle text-subtitle font-inconsolata text-gray500 mb-2">Hello World! Meu nome é <span class="text-red">Gabriel Prestes Perez</span> e sou</p>
+                <h1 class="title-first font-bold font-asap text-lg text-gray600">Desenvolvedor Fullstack</h1>
+                <p class="desc-port text-sm font-mavenpro text-gray400 mt-5 mb-20 text-center max-w-[900px]">Transformo necessidades em aplicações reais, evolventes e funcionais. Desenvolvo sistemas através da minha paixão pela tecnologia, contribuindo com soluções inovadoras e eficazes para desafios complexos.</p>
+            </div>
+            <div class="tecnologias flex justify-center items-center gap-4 mb-40 flex-wrap overflow-hidden">
+                <div class="flex items-center rounded-full px-[16px] py-[8px] gap-[8px] bg-gray300">
+                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path fill-rule="evenodd" clip-rule="evenodd" d="M9.99992 0.490845C4.61589 0.490845 0.25 4.85577 0.25 10.2408C0.25 14.5487 3.04365 18.2032 6.91759 19.4926C7.4047 19.583 7.58359 19.2811 7.58359 19.0236C7.58359 18.7911 7.57455 18.023 7.57035 17.2083C4.85791 17.7981 4.28556 16.058 4.28556 16.058C3.84204 14.931 3.203 14.6314 3.203 14.6314C2.31823 14.0262 3.26969 14.0388 3.26969 14.0388C4.24858 14.1074 4.76427 15.0436 4.76427 15.0436C5.63387 16.5338 7.04514 16.103 7.60151 15.8541C7.68902 15.2239 7.9417 14.7936 8.22053 14.5501C6.05494 14.3039 3.77827 13.4678 3.77827 9.73186C3.77827 8.66739 4.1593 7.79763 4.783 7.11468C4.68161 6.86927 4.34788 5.87762 4.87729 4.53464C4.87729 4.53464 5.69586 4.2726 7.55905 5.53404C8.33694 5.31785 9.17117 5.20919 9.99992 5.20548C10.8282 5.20919 11.6629 5.31753 12.4422 5.53372C14.3032 4.27227 15.1208 4.53431 15.1208 4.53431C15.6515 5.87713 15.3177 6.86895 15.2165 7.11436C15.8417 7.79731 16.22 8.66707 16.22 9.73154C16.22 13.4763 13.9391 14.3007 11.768 14.5422C12.1179 14.8448 12.4295 15.4383 12.4295 16.3478C12.4295 17.6523 12.4182 18.7023 12.4182 19.0234C12.4182 19.2829 12.5938 19.5869 13.0879 19.4911C16.9596 18.2005 19.75 14.5471 19.75 10.2408C19.7498 4.85609 15.3844 0.490845 9.99992 0.490845Z" fill="#C0C4CE"/>
+                        <path d="M3.94279 14.4894C3.92132 14.5379 3.84511 14.5524 3.77568 14.5193C3.70464 14.4877 3.66509 14.4216 3.68801 14.373C3.709 14.323 3.78537 14.3093 3.85593 14.3427C3.92697 14.3745 3.96749 14.441 3.94279 14.4894ZM4.33771 14.9301C4.29137 14.9732 4.20047 14.9531 4.1388 14.8848C4.07486 14.817 4.06291 14.7261 4.11022 14.6824C4.15833 14.6394 4.24649 14.6598 4.31042 14.7276C4.37403 14.7964 4.38647 14.8863 4.33771 14.9301ZM4.72229 15.4914C4.66255 15.5331 4.56471 15.4942 4.50433 15.4075C4.44459 15.3206 4.44459 15.2165 4.50594 15.175C4.56617 15.1333 4.66255 15.1709 4.72391 15.2568C4.78332 15.3448 4.78332 15.4491 4.72229 15.4914ZM5.2488 16.0341C5.19552 16.093 5.08153 16.0772 4.99822 15.9969C4.91313 15.9183 4.8894 15.8064 4.94284 15.7477C4.99709 15.6886 5.11156 15.705 5.19535 15.7848C5.28044 15.8633 5.30579 15.9755 5.2488 16.0341ZM5.97534 16.3491C5.95161 16.4254 5.84214 16.4602 5.73154 16.4275C5.62127 16.3941 5.5491 16.3048 5.57171 16.2277C5.59431 16.1506 5.70458 16.1146 5.81582 16.1494C5.9261 16.1826 5.99827 16.2714 5.97534 16.3491ZM6.77341 16.4074C6.77616 16.4878 6.68251 16.5543 6.56675 16.5559C6.45002 16.5586 6.35557 16.4934 6.35444 16.4143C6.35444 16.3331 6.44614 16.2674 6.56271 16.2651C6.67848 16.263 6.77341 16.3278 6.77341 16.4074ZM7.51578 16.2811C7.52966 16.3594 7.4491 16.44 7.33398 16.4614C7.22096 16.4824 7.11602 16.4337 7.10149 16.356C7.0876 16.2756 7.16962 16.195 7.28264 16.1742C7.39792 16.1544 7.50125 16.2015 7.51578 16.2811Z" fill="#C0C4CE"/>
+                        </svg>                        
+                    <span class="text-gray500">Github</span>
+                </div>
+                <div class="flex items-center rounded-full px-[16px] py-[8px] gap-[8px] bg-gray300">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12.0001 17.56L16.0996 16.43L16.6536 10.33H9.36103L9.17972 8.3H16.8349L17.0364 6.31H6.96374L7.52781 12.32H14.4679L14.2362 14.9L12.0001 15.5L9.76394 14.9L9.62292 13.24H7.60839L7.9005 16.43L12.0001 17.56ZM4.01245 3H19.9877L18.5473 19.2L12.0001 21L5.45284 19.2L4.01245 3Z" fill="#E3646E"/>
+                        </svg>                        
+                    <span class="text-gray500">HTML</span>
+                </div>
+                <div class="flex items-center rounded-full px-[16px] py-[8px] gap-[8px] bg-gray300">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M4.07483 3L5.51741 19.1952L11.9904 21L18.4815 19.1886L19.9252 3H4.07483ZM16.9283 6.71038L16.4481 12.1055L16.4496 12.1346L16.4476 12.2016V12.2011L16.1064 15.9734L16.0688 16.3086L12 17.4339L11.9969 17.4368L7.93514 16.3051L7.66011 13.1863H9.65188L9.7932 14.7722L12.0006 15.3704L12 15.3716V15.3713L14.2156 14.7646L14.4498 12.182H9.81816L9.77842 11.7454L9.68789 10.7226L9.64041 10.1734H14.6258L14.8071 8.16487H7.21392L7.17418 7.72858L7.0838 6.70551L7.03616 6.15631H16.9758L16.9283 6.71038Z" fill="#3996DB"/>
+                        </svg>                        
+                    <span class="text-gray500">CSS</span>
+                    </div>
+                <div class="flex items-center rounded-full px-[16px] py-[8px] gap-[8px] bg-gray300">
+                    <svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M0.250244 11.31L2.51387 9.96246C2.95052 10.7244 3.34806 11.3688 4.30101 11.3688C5.21414 11.3688 5.79018 11.019 5.79018 9.64971V0.351133H8.5701V9.68819C8.5701 12.5204 6.88252 13.8099 4.42049 13.8099C3.55009 13.8563 2.68584 13.6422 1.94155 13.1958C1.19727 12.7494 0.607149 12.0924 0.250244 11.31ZM10.0806 11.0162L12.3442 9.72667C12.5959 10.229 12.9866 10.6513 13.4713 10.945C13.956 11.2387 14.5151 11.3919 15.0843 11.387C16.2364 11.387 16.9703 10.8203 16.9703 10.0387C16.9703 9.10117 16.2158 8.76883 14.9449 8.21959L14.2523 7.92993C12.2468 7.09033 10.9162 6.03523 10.9162 3.80819C10.9162 1.75677 12.5049 0.194408 14.9869 0.194408C15.7911 0.137062 16.5947 0.313963 17.2973 0.703043C18 1.09212 18.5706 1.67615 18.9381 2.38227L16.7733 3.75012C16.6313 3.3996 16.3843 3.09983 16.0651 2.89054C15.746 2.68125 15.3697 2.57232 14.9862 2.57817C14.819 2.56153 14.6501 2.57937 14.4903 2.63054C14.3305 2.68172 14.1833 2.7651 14.0581 2.87538C13.9329 2.98565 13.8325 3.12039 13.7632 3.27101C13.6939 3.42162 13.6572 3.5848 13.6556 3.75012C13.6556 4.57083 14.1719 4.90247 15.3624 5.41043L16.0572 5.70359C18.4204 6.69991 19.7502 7.71583 19.7502 10.0009C19.7502 12.4624 17.7846 13.8106 15.1441 13.8106C12.5625 13.8106 10.8949 12.5988 10.0806 11.0162Z" fill="#EABD5F"/>
+                        </svg>                        
+                    <span class="text-gray500">JavaScript</span>
+                </div>
+                <div class="flex items-center rounded-full px-[16px] py-[8px] gap-[8px] bg-gray300">
+                    <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10.5611 15.9433C10.3877 15.7901 10.2069 15.6363 10.0341 15.4659C9.89604 15.5936 9.76662 15.7132 9.62969 15.8322C7.92006 17.306 6.15785 17.9196 5.11324 17.3231C4.10271 16.7523 3.78436 15.066 4.1888 12.9445C4.23194 12.7145 4.28375 12.4846 4.34422 12.2546C4.1628 12.2012 3.99005 12.1521 3.81729 12.0944C1.66624 11.3602 0.250122 10.1678 0.250122 8.97492C0.250122 7.82527 1.57149 6.70926 3.63529 5.99373C3.8664 5.91684 4.11022 5.84048 4.36098 5.77213C4.3032 5.55053 4.25756 5.33747 4.21422 5.13136C3.78205 2.97783 4.08422 1.25736 5.10341 0.677998C6.16536 0.0644599 7.92757 0.720717 9.69729 2.26231C9.80071 2.35575 9.90471 2.45827 10.0168 2.56026C10.1809 2.40701 10.3363 2.25376 10.5004 2.1176C12.1759 0.675862 13.8422 0.0730035 14.8614 0.652368C15.9234 1.24829 16.2348 3.08837 15.7599 5.3631C15.7339 5.50835 15.7021 5.64451 15.6651 5.79029C15.8812 5.85009 16.0967 5.91791 16.2955 5.98625C18.4026 6.70178 19.7673 7.81779 19.75 8.99308C19.75 10.194 18.2905 11.3783 16.0522 12.111C15.9315 12.1451 15.8107 12.1879 15.6894 12.2215C15.7414 12.3918 15.7755 12.5622 15.8101 12.7325C16.2591 14.9389 15.9135 16.7448 14.8689 17.3413C14.5946 17.4939 14.2791 17.5717 13.9589 17.5655C13.0016 17.5639 11.7859 16.9814 10.5611 15.9433ZM12.2539 12.8169C11.7579 13.5301 11.2127 14.213 10.6217 14.8615C10.7858 15.0217 10.9499 15.1685 11.114 15.3047C12.5388 16.5141 13.8515 16.9659 14.4651 16.6167C14.6525 16.4675 14.8056 16.2851 14.9153 16.0803C15.0251 15.8755 15.0893 15.6524 15.1041 15.4243C15.2288 14.5789 15.1936 13.72 15.0001 12.8858C14.9741 12.7325 14.9423 12.5793 14.8967 12.4175C14.0265 12.6057 13.1436 12.7391 12.2539 12.8169ZM5.01675 13.0897C4.66315 14.9053 4.92199 16.2584 5.53674 16.6081C5.75454 16.6922 5.98969 16.7311 6.22553 16.7218C6.46137 16.7126 6.69212 16.6555 6.90144 16.5547C7.71577 16.2384 8.45739 15.7815 9.08658 15.2086C9.216 15.106 9.33676 14.987 9.46676 14.8679C8.8628 14.2192 8.3032 13.5363 7.79121 12.8233C6.90493 12.7549 6.02481 12.63 5.15715 12.4495C5.10341 12.6722 5.06008 12.8847 5.01675 13.0897ZM10.0434 14.2821C10.4235 13.8645 10.8031 13.4048 11.1833 12.8938C10.8031 12.9109 10.4062 12.9194 10.0087 12.9194C9.6112 12.9194 9.24027 12.9109 8.86876 12.8938C9.25702 13.3957 9.64644 13.8645 10.0434 14.2821ZM8.22917 5.9681C7.90099 6.4364 7.58148 6.92926 7.27931 7.45042C6.97713 7.96143 6.70153 8.48099 6.4502 8.99895C6.70962 9.50996 6.9858 10.0295 7.28797 10.5582C7.59015 11.0692 7.90966 11.5727 8.23783 12.0485C8.80752 12.0827 9.40378 12.1019 10.0081 12.1019C10.6125 12.1019 11.2168 12.0848 11.7958 12.0426C12.1066 11.5743 12.4261 11.0713 12.7289 10.5518C13.0316 10.0322 13.3159 9.50409 13.5666 8.99308C13.3159 8.4906 13.031 7.97104 12.7289 7.45095C12.4267 6.93086 12.1072 6.4364 11.7877 5.96863C11.2099 5.92592 10.6131 5.90029 10.0087 5.90029C9.40436 5.90029 8.8081 5.92538 8.22917 5.9681ZM5.37959 11.6667C5.97212 11.7918 6.57185 11.8857 7.17589 11.9481C6.96847 11.6245 6.76162 11.3004 6.56287 10.9597C6.37278 10.6276 6.18269 10.2954 6.00994 9.96331C5.75977 10.5421 5.55234 11.114 5.37959 11.6667ZM13.454 10.9512C13.2552 11.2918 13.0565 11.6154 12.8583 11.931C13.4714 11.86 14.0797 11.7577 14.6806 11.6245C14.493 11.0495 14.2739 10.4836 14.0242 9.92914C13.8428 10.2698 13.6527 10.6105 13.454 10.9512ZM3.9028 6.77707C2.14117 7.39061 1.07923 8.28396 1.07923 8.98346C1.11281 9.20851 1.19415 9.4252 1.31859 9.62111C1.44302 9.81703 1.60809 9.9883 1.80433 10.1251C2.47835 10.6489 3.25128 11.0532 4.08422 11.3175C4.23964 11.3709 4.40373 11.4115 4.56782 11.4627C4.83309 10.6248 5.15319 9.80258 5.52634 9.00055C5.15247 8.21225 4.83517 7.40206 4.57649 6.57523C4.34345 6.6329 4.11889 6.70018 3.9028 6.77707ZM14.4992 8.98346C14.8824 9.7753 15.2104 10.589 15.4814 11.4195C15.594 11.3853 15.7061 11.3511 15.8095 11.3169C17.7353 10.6868 18.9295 9.72409 18.9359 8.97439C18.9359 8.27594 17.8306 7.37246 16.0256 6.75945C15.8442 6.70018 15.646 6.64038 15.4479 6.58057C15.1862 7.39906 14.8694 8.20159 14.4992 8.98346ZM13.4459 7.0243C13.6446 7.36498 13.8347 7.69765 14.0069 8.02978C14.2468 7.48697 14.4544 6.9324 14.6286 6.36858C14.042 6.23686 13.4481 6.13454 12.8496 6.06208C13.057 6.37659 13.2558 6.69217 13.4459 7.0243ZM5.38826 6.36164C5.56159 6.90683 5.76843 7.46056 6.00994 8.03085C6.18327 7.69872 6.37278 7.36658 6.56287 7.03445C6.75296 6.70232 6.95113 6.37873 7.15855 6.06315C6.53687 6.13844 5.94985 6.24043 5.38826 6.36164ZM11.0447 2.74128C10.8979 2.8689 10.7511 3.00507 10.6038 3.14176C11.2035 3.78226 11.7547 4.46024 12.2534 5.17087C13.1322 5.24928 14.0038 5.38597 14.8614 5.5799C14.8961 5.45228 14.9192 5.32412 14.9481 5.1965C15.3525 3.23735 15.1035 1.73794 14.4472 1.36362C14.3031 1.28889 14.1397 1.25196 13.9745 1.25683C13.2691 1.25362 12.1863 1.76144 11.0447 2.73968V2.74128ZM5.51768 1.38498C4.90466 1.7342 4.66257 3.13108 5.02542 4.97117C5.06875 5.16714 5.11208 5.36257 5.1635 5.56708C6.02229 5.38029 6.89357 5.2465 7.77157 5.1666C8.27205 4.45508 8.82616 3.77703 9.42978 3.13749C9.33502 3.04351 9.23102 2.95861 9.13627 2.87317C7.9345 1.82284 6.77896 1.26858 6.02439 1.26858C5.84705 1.26299 5.67154 1.3033 5.51768 1.38498ZM11.1654 5.09879C10.8093 4.62254 10.425 4.16477 10.0145 3.72754C9.62622 4.14457 9.23738 4.60486 8.85894 5.09879C9.23911 5.0817 9.61871 5.07316 10.0076 5.07316C10.3964 5.07316 10.7852 5.0801 11.1654 5.09879ZM8.28117 9.01764C8.27307 8.7987 8.3118 8.58044 8.39514 8.37537C8.47848 8.17029 8.60479 7.98243 8.76683 7.82256C8.92887 7.66268 9.12346 7.53393 9.33944 7.44368C9.55542 7.35343 9.78855 7.30346 10.0255 7.29663C10.5035 7.31168 10.9555 7.5013 11.2825 7.82392C11.6095 8.14653 11.7847 8.57581 11.7698 9.01764C11.7852 9.45983 11.6101 9.8896 11.2829 10.2126C10.9558 10.5356 10.5033 10.7253 10.0249 10.7402C9.78784 10.7334 9.5546 10.6834 9.33853 10.593C9.12247 10.5027 8.92784 10.3738 8.76582 10.2137C8.6038 10.0537 8.47758 9.86561 8.39441 9.66036C8.31124 9.4551 8.27276 9.23668 8.28117 9.01764Z" fill="#3996DB"/>
+                        </svg>                        
+                    <span class="text-gray500">React</span>
+                </div>
+                <div class="flex items-center rounded-full px-[16px] py-[8px] gap-[8px] bg-gray300">
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M19.9457 6.57077L12.8344 2.44158C12.3859 2.18614 11.802 2.18614 11.3499 2.44158L4.16267 6.57077C3.69984 6.83702 3.37231 7.33743 3.37231 7.87267V16.1201C3.37231 16.6553 3.70839 17.1559 4.17122 17.4236L6.07012 18.5021C6.97772 18.9492 7.29847 18.9492 7.71147 18.9492C9.05529 18.9492 9.82291 18.1365 9.82291 16.7192V8.57691C9.82291 8.46193 9.76308 8.29082 9.6502 8.29082H8.74341C8.62858 8.29082 8.37153 8.46193 8.37153 8.57675V16.719C8.37153 17.3473 7.80323 17.9725 6.74114 17.4415L4.77903 16.3105C4.71065 16.2734 4.66243 16.1988 4.66243 16.1201V7.87267C4.66243 7.79494 4.75194 7.71688 4.8208 7.67705L11.9848 3.55496C12.0518 3.51706 12.1501 3.51706 12.2169 3.55496L19.2935 7.67608C19.3613 7.71688 19.3374 7.79252 19.3374 7.87267V16.1201C19.3374 16.1988 19.3669 16.2754 19.3 16.3133L12.1904 20.4378C12.1295 20.4744 12.0539 20.4744 11.9871 20.4378L10.1637 19.3494C10.1087 19.3175 10.0434 19.306 9.99063 19.3355C9.48329 19.6231 9.38976 19.6613 8.91386 19.8263C8.79678 19.8671 8.62407 19.9379 8.97998 20.1374L11.3664 21.5491C11.5942 21.6807 11.8527 21.75 12.1158 21.75C12.3806 21.75 12.6399 21.6813 12.8684 21.5491L19.9455 17.4236C20.4083 17.1539 20.6277 16.6553 20.6277 16.1201V7.87267C20.6277 7.33743 20.4083 6.83831 19.9457 6.57077ZM14.3238 14.8132C12.4328 14.8132 12.0163 14.2915 11.8774 13.3512C11.8613 13.2499 11.7753 13.1288 11.6723 13.1288H10.7481C10.6338 13.1288 10.5418 13.2675 10.5418 13.3813C10.5418 14.5853 11.1964 16.0441 14.324 16.0441C16.588 16.0441 17.886 15.1644 17.886 13.6076C17.886 12.0639 16.8431 11.6588 14.6475 11.3682C12.4281 11.0749 12.2027 10.9267 12.2027 10.4068C12.2027 9.97814 12.3936 9.40646 14.0369 9.40646C15.5052 9.40646 16.0464 9.72157 16.2692 10.7113C16.2882 10.8043 16.3732 10.8711 16.4691 10.8711H17.397C17.4541 10.8711 17.5086 10.848 17.5486 10.8072C17.5873 10.7633 17.6078 10.7083 17.6027 10.6493C17.459 8.94508 16.3267 8.15085 14.0368 8.15085C11.9998 8.15085 10.7847 9.01103 10.7847 10.4529C10.7847 12.0169 11.9937 12.449 13.949 12.6424C16.2882 12.8717 16.4701 13.2136 16.4701 13.6737C16.4701 14.4728 15.8286 14.8132 14.3238 14.8132Z" fill="#82BC4F"/>
+                        </svg>
+                    <span class="text-gray500">Node.js</span>
+                </div>
+                <div class="flex items-center rounded-full px-[16px] py-[8px] gap-[8px] bg-gray300">
+                    <svg width="24px" height="24px" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg" fill="#000000"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"><title>file_type_typescript</title><path d="M23.827,8.243A4.424,4.424,0,0,1,26.05,9.524a5.853,5.853,0,0,1,.852,1.143c.011.045-1.534,1.083-2.471,1.662-.034.023-.169-.124-.322-.35a2.014,2.014,0,0,0-1.67-1c-1.077-.074-1.771.49-1.766,1.433a1.3,1.3,0,0,0,.153.666c.237.49.677.784,2.059,1.383,2.544,1.095,3.636,1.817,4.31,2.843a5.158,5.158,0,0,1,.416,4.333,4.764,4.764,0,0,1-3.932,2.815,10.9,10.9,0,0,1-2.708-.028,6.531,6.531,0,0,1-3.616-1.884,6.278,6.278,0,0,1-.926-1.371,2.655,2.655,0,0,1,.327-.208c.158-.09.756-.434,1.32-.761L19.1,19.6l.214.312a4.771,4.771,0,0,0,1.35,1.292,3.3,3.3,0,0,0,3.458-.175,1.545,1.545,0,0,0,.2-1.974c-.276-.395-.84-.727-2.443-1.422a8.8,8.8,0,0,1-3.349-2.055,4.687,4.687,0,0,1-.976-1.777,7.116,7.116,0,0,1-.062-2.268,4.332,4.332,0,0,1,3.644-3.374A9,9,0,0,1,23.827,8.243ZM15.484,9.726l.011,1.454h-4.63V24.328H7.6V11.183H2.97V9.755A13.986,13.986,0,0,1,3.01,8.289c.017-.023,2.832-.034,6.245-.028l6.211.017Z" style="fill:#007acc"></path></g></svg>
+                    <span class="text-gray500">TypeScript</span>
+                </div>
+
+            </div>
+            <div class="flex items-center justify-center">
+                <button id="scroll-button" class="transition-opacity duration-300 hover:opacity-80 rounded-full p-2 hover:bg-gray300">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#fff" viewBox="0 0 256 256"><path d="M213.66,130.34a8,8,0,0,1,0,11.32l-80,80a8,8,0,0,1-11.32,0l-80-80a8,8,0,0,1,11.32-11.32L128,204.69l74.34-74.35A8,8,0,0,1,213.66,130.34Zm-91.32,11.32a8,8,0,0,0,11.32,0l80-80a8,8,0,0,0-11.32-11.32L128,124.69,53.66,50.34A8,8,0,0,0,42.34,61.66Z"></path></svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div id="projects" class="w-screen h-screen flex flex-col items-center justify-center bg-gray200 gap-2">
+        
+        <header class="w-100 flex flex-col items-center justify-center gap-2">
+            <p class="text-subtitle font-inconsolata text-red">Meu trabalho</p>
+            <h2 class="text-md font-asap text-gray600">Veja os principais em destaque</h2>
+        </header>
+
+        <div class="flex items-center justify-center mt-14">
+            <div class="projects-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 2xl:grid-cols-4 gap-4 md:gap-10 mx-auto px-2 mb-16 w-auto">
+                <a href="https://cardapio-snowy.vercel.app/"
+                class="opacity-hidden project p-3 max-w-80 bg-gray300 flex-col items-center rounded-xl hover:border-2 hover:border-gray400 gap-3 transition-hover duration-300" target="_blank"
+                >
+                    <img src="assets/images-projects/cardapio-digital.png"
+                    class="w-full max-h-[47rem] rounded-xl"
+                    alt="Imagem projeto cardápio digital"
+                    />
+                    <div class="flex flex-col gap-2">
+                        <span class="text-gray600 text-sm">
+                            Cardápio Digital
+                        </span>
+                        <p class="text-gray500 text-smm">
+                            Cardápio digital para fazer pedidos no restaurante, o pedido é feito direto pelo WhatsApp
+                        </p>
+                    </div>
+                </a>
+
+                <a href="https://travelgram-six.vercel.app/"
+                class="opacity-hidden project p-3 max-w-80 bg-gray300 flex-col items-center rounded-xl hover:border-2 hover:border-gray400 gap-3 transition-hover duration-300"
+                target="_blank"
+                >
+                    <img src="assets/images-projects/travelgram.png"
+                    class="w-full max-h-[47rem] rounded-xl"
+                    alt="Imagem projeto travelgram"
+                    />
+                    <div class="flex flex-col gap-2">
+                        <span class="text-gray600 text-sm">
+                            Travelgram
+                        </span>
+                        <p class="text-gray500 text-smm">
+                            Rede social onde as pessoas mostram os registros de suas viagens pelo mundo
+                        </p>
+                    </div>
+                </a>
+
+                <a href="https://convert-template-main.vercel.app/"
+                class="opacity-hidden project p-3 max-w-80 bg-gray300 flex-col items-center rounded-xl hover:border-2 hover:border-gray400 gap-3 transition-hover duration-300"
+                target="_blank"
+                >
+                    <img src="assets/images-projects/convert-template-main.png"
+                    class="w-full max-h-[47rem] rounded-xl"
+                    alt="Imagem projeto travelgram"
+                    />
+                    <div class="flex flex-col gap-2">
+                        <span class="text-gray600 text-sm">
+                            Convert Template
+                        </span>
+                        <p class="text-gray500 text-smm">
+                            Template que converte EURO, Dólar Americano, e Libra em Real.
+                        </p>
+                    </div>
+                </a>
+
+                <a href="https://portal-de-noticia-seven.vercel.app/"
+                class="opacity-hidden project p-3 max-w-80 bg-gray300 flex-col items-center rounded-xl hover:border-2 hover:border-gray400 gap-3 transition-hover duration-300"
+                target="_blank"
+                >
+                    <img src="assets/images-projects/tech-news.png"
+                    class="w-full max-h-[47rem] rounded-xl"
+                    alt="Imagem projeto travelgram"
+                    />
+                    <div class="flex flex-col gap-2">
+                        <span class="text-gray600 text-sm">
+                            Tech News
+                        </span>
+                        <p class="text-gray500 text-smm">
+                            Homepage de um portal de notícias sobre a área de tecnologia.
+                        </p>
+                    </div>
+                </a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="w-screen flex flex-col justify-center items-center bg-gray100" id="services">
+        <header class="w-100 flex flex-col items-center justify-center gap-2 mt-20">
+            <p class="text-subtitle font-inconsolata text-red">Meus serviços</p>
+            <h2 class="text-md font-asap text-gray600">Como posso ajudar seu negócio</h2>
+        </header>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-14 mb-28 gap-6 overflow-hidden">
+            <div class="flex flex-col border border-gray300 rounded-lg gap-5 p-5">
+                <div>
+                    <img src="assets/icons/Devices.svg" alt="">
+                </div>
+                <div>
+                    <h2 class="text-sm font-asap text-gray600">Websites e Aplicativos</h2>
+                    <p class="text-smm font-mavenpro text-gray500">Desenvolvimento de interfaces</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col border border-gray300 rounded-lg gap-5 p-5">
+                <div>
+                    <img src="assets/icons/HardDrives.svg" alt="">
+                </div>
+                <div>
+                    <h2 class="text-sm font-asap text-gray600">API e banco de dados</h2>
+                    <p class="text-smm font-mavenpro text-gray500">Criação de serviços do sistema</p>
+                </div>
+            </div>
+
+            <div class="flex flex-col border border-gray300 rounded-lg gap-5 p-5">
+                <div>
+                    <img src="assets/icons/Infinity.svg" alt="">
+                </div>
+                <div>
+                    <h2 class="text-sm font-asap text-gray600">DevOps</h2>
+                    <p class="text-smm font-mavenpro text-gray500">Gestão e infraestrutura da aplicação</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="w-screen h-screen flex flex-col items-center justify-center bg-contacts bg-cover bg-center" id="contact">
+        <header class="flex flex-col items-center justify-center gap-2">
+            <span class="font-inconsolata text-subtitle text-purple">Contato</span>
+            <h2 class="text-md font-asap text-gray600">Gostou do meu trabalho?</h2>
+            <p class="title-contact text-mdm font-mavenpro text-gray500 text-center">Entre em contato ou acompanhe as minhas redes sociais!</p>
+        </header>
+        <div>
+            <div class="flex flex-col gap-4 mt-12">
+                <a href="https://www.linkedin.com/in/gabrielprestesperez"
+                class="contact flex items-center w-[400px] bg-gray300 rounded-lg p-4 gap-2 transition-hover duration-300"
+                target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#878EA1" viewBox="0 0 256 256"><path d="M216,24H40A16,16,0,0,0,24,40V216a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V40A16,16,0,0,0,216,24Zm0,192H40V40H216V216ZM96,112v64a8,8,0,0,1-16,0V112a8,8,0,0,1,16,0Zm88,28v36a8,8,0,0,1-16,0V140a20,20,0,0,0-40,0v36a8,8,0,0,1-16,0V112a8,8,0,0,1,15.79-1.78A36,36,0,0,1,184,140ZM100,84A12,12,0,1,1,88,72,12,12,0,0,1,100,84Z"></path></svg>
+
+                    <div class="flex justify-between w-full items-center">
+                        <span class="text-mdm text-gray500">
+                            Linkedin
+                        </span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#3996DB" viewBox="0 0 256 256"><path d="M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z"></path></svg>
+                    </div>
+                </a>
+                <a href="https://www.instagram.com/gabrielperez441/"
+                class="contact flex items-center w-[400px] bg-gray300 rounded-lg p-4 gap-2 transition-hover duration-300"
+                target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#878EA1" viewBox="0 0 256 256"><path d="M128,80a48,48,0,1,0,48,48A48.05,48.05,0,0,0,128,80Zm0,80a32,32,0,1,1,32-32A32,32,0,0,1,128,160ZM176,24H80A56.06,56.06,0,0,0,24,80v96a56.06,56.06,0,0,0,56,56h96a56.06,56.06,0,0,0,56-56V80A56.06,56.06,0,0,0,176,24Zm40,152a40,40,0,0,1-40,40H80a40,40,0,0,1-40-40V80A40,40,0,0,1,80,40h96a40,40,0,0,1,40,40ZM192,76a12,12,0,1,1-12-12A12,12,0,0,1,192,76Z"></path></svg>
+
+                    <div class="flex justify-between w-full items-center">
+                        <span class="text-mdm text-gray500">
+                            Instagram
+                        </span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#3996DB" viewBox="0 0 256 256"><path d="M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z"></path></svg>
+                    </div>
+                </a>
+                <a href="https://github.com/CPTStark"
+                class="contact flex items-center w-[400px] bg-gray300 rounded-lg p-4 gap-2 transition-hover duration-300"
+                target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#878EA1" viewBox="0 0 256 256"><path d="M208.31,75.68A59.78,59.78,0,0,0,202.93,28,8,8,0,0,0,196,24a59.75,59.75,0,0,0-48,24H124A59.75,59.75,0,0,0,76,24a8,8,0,0,0-6.93,4,59.78,59.78,0,0,0-5.38,47.68A58.14,58.14,0,0,0,56,104v8a56.06,56.06,0,0,0,48.44,55.47A39.8,39.8,0,0,0,96,192v8H72a24,24,0,0,1-24-24A40,40,0,0,0,8,136a8,8,0,0,0,0,16,24,24,0,0,1,24,24,40,40,0,0,0,40,40H96v16a8,8,0,0,0,16,0V192a24,24,0,0,1,48,0v40a8,8,0,0,0,16,0V192a39.8,39.8,0,0,0-8.44-24.53A56.06,56.06,0,0,0,216,112v-8A58.14,58.14,0,0,0,208.31,75.68ZM200,112a40,40,0,0,1-40,40H112a40,40,0,0,1-40-40v-8a41.74,41.74,0,0,1,6.9-22.48A8,8,0,0,0,80,73.83a43.81,43.81,0,0,1,.79-33.58,43.88,43.88,0,0,1,32.32,20.06A8,8,0,0,0,119.82,64h32.35a8,8,0,0,0,6.74-3.69,43.87,43.87,0,0,1,32.32-20.06A43.81,43.81,0,0,1,192,73.83a8.09,8.09,0,0,0,1,7.65A41.72,41.72,0,0,1,200,104Z"></path></svg>
+
+                    <div class="flex justify-between w-full items-center">
+                        <span class="text-mdm text-gray500">
+                            Github
+                        </span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#3996DB" viewBox="0 0 256 256"><path d="M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z"></path></svg>
+                    </div>
+                </a>
+                <a href="https://wa.me/46991231809?text=Ol%C3%A1,%20tudo%20bem?"
+                class="contact flex items-center w-[400px] bg-gray300 rounded-lg p-4 gap-2 transition-hover duration-300"
+                target="_blank">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#878EA1" viewBox="0 0 256 256"><path d="M187.58,144.84l-32-16a8,8,0,0,0-8,.5l-14.69,9.8a40.55,40.55,0,0,1-16-16l9.8-14.69a8,8,0,0,0,.5-8l-16-32A8,8,0,0,0,104,64a40,40,0,0,0-40,40,88.1,88.1,0,0,0,88,88,40,40,0,0,0,40-40A8,8,0,0,0,187.58,144.84ZM152,176a72.08,72.08,0,0,1-72-72A24,24,0,0,1,99.29,80.46l11.48,23L101,118a8,8,0,0,0-.73,7.51,56.47,56.47,0,0,0,30.15,30.15A8,8,0,0,0,138,155l14.61-9.74,23,11.48A24,24,0,0,1,152,176ZM128,24A104,104,0,0,0,36.18,176.88L24.83,210.93a16,16,0,0,0,20.24,20.24l34.05-11.35A104,104,0,1,0,128,24Zm0,192a87.87,87.87,0,0,1-44.06-11.81,8,8,0,0,0-6.54-.67L40,216,52.47,178.6a8,8,0,0,0-.66-6.54A88,88,0,1,1,128,216Z"></path></svg>
+
+                    <div class="flex justify-between w-full items-center">
+                        <span class="text-mdm text-gray500">
+                            WhatsApp
+                        </span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#3996DB" viewBox="0 0 256 256"><path d="M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z"></path></svg>
+                    </div>
+                </a>
+                <a href="mailto:gabrielprestesperezjr@gmail.com"
+                class=" contact flex items-center w-[400px] bg-gray300 rounded-lg p-4 gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#878EA1" viewBox="0 0 256 256"><path d="M224,48H32a8,8,0,0,0-8,8V192a16,16,0,0,0,16,16H216a16,16,0,0,0,16-16V56A8,8,0,0,0,224,48ZM203.43,64,128,133.15,52.57,64ZM216,192H40V74.19l82.59,75.71a8,8,0,0,0,10.82,0L216,74.19V192Z"></path></svg>
+
+                    <div class="flex justify-between w-full items-center">
+                        <span class="text-mdm text-gray500">
+                            E-mail
+                        </span>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#3996DB" viewBox="0 0 256 256"><path d="M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z"></path></svg>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+        <button
+        id="btn-top"
+        class="fixed bottom-5 right-3 rounded-full p-2 hover:bg-gray300 transition-opacity duration-300 hover:opacity-80">
+        <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#fff" viewBox="0 0 256 256"><path d="M213.66,194.34a8,8,0,0,1-11.32,11.32L128,131.31,53.66,205.66a8,8,0,0,1-11.32-11.32l80-80a8,8,0,0,1,11.32,0Zm-160-68.68L128,51.31l74.34,74.35a8,8,0,0,0,11.32-11.32l-80-80a8,8,0,0,0-11.32,0l-80,80a8,8,0,0,0,11.32,11.32Z"></path></svg>
+        </button>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
