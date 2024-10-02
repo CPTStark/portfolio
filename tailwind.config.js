@@ -14,6 +14,8 @@ module.exports = {
       gray400: '#878EA1',
       gray500: '#C0C4CE',
       gray600: '#E2E4E9',
+      header: '#16181da9',
+      grayredes: '#7e7e7e'
     },
     fontFamily: {
       'asap': ['Asap', 'sans-serif'],
@@ -27,6 +29,7 @@ module.exports = {
       subtitle: ['20px', '120%'],
       mdm: ['16px', '140%'],
       smm: ['14px', '140%'],
+      xs: ['12px', '120%'],
     },
     extend: {
       backgroundImage: {

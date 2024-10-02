@@ -7,12 +7,18 @@ const scrollButton = document.getElementById('scroll-button');
 
 scrollButtons.forEach(btn => {
     btn.addEventListener('click', (ev) => {
-        if(ev.target.innerText === 'Meus Serviços') {
+        scrollButtons.forEach(button => {
+            button.classList.remove('active-btn');
+        });
+        
+        ev.target.classList.add('active-btn')
+
+        if(ev.target.innerText === 'Serviços') {
             divTargetServices.scrollIntoView({
                 behavior: 'smooth',
                 block: 'center',
             })
-        } else if(ev.target.innerText === 'Meu trabalho') {
+        } else if(ev.target.innerText === 'Projetos') {
             divTargetProjects.scrollIntoView({
                 behavior: 'smooth',
                 block: 'start',
