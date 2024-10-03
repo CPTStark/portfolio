@@ -2,6 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
+.hidden {
+    display: none;
+}
+
+.show-flex {
+    display: flex;
+}
+
 .opacity-hidden {
     opacity: 0;
     filter: blur(15px);

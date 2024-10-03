@@ -12,22 +12,35 @@
 </head>
 <body class="overflow-x-hidden bg-gray200">
     
-    <header class="w-full h-20 flex bg-header fixed z-50" id="inicio">
+    <header class="w-full h-14 flex bg-header fixed z-50" id="inicio">
         <div class="flex items-center gap-10 px-8 w-[50%]">
             <h1 class="font-semibold text-subtitle text-gray600 hover:bg-gray300 p-2 rounded-xl transition-hover duration-300">Gabriel Prestes Perez</h1>
         </div>
         <nav class="flex justify-end mr-5 items-center gap-10 px-8 w-[50%]">
-            <button class="buttons-scroll header-btn font-semibold text-subtitle text-gray600 hover:bg-gray300 p-2 rounded-xl transition-hover duration-300">
+            <button onclick="scrollMoveDiv('Projetos', event)" 
+            class="buttons-scroll header-btn font-semibold text-subtitle text-gray600 hover:bg-gray300 p-2 rounded-xl transition-hover duration-300">
                 Projetos
             </button>
-            <button class="buttons-scroll header-btn font-semibold text-subtitle text-gray600 hover:bg-gray300 p-2 rounded-xl transition-hover duration-300">
+            <button onclick="scrollMoveDiv('Serviços', event)" 
+            class="buttons-scroll header-btn font-semibold text-subtitle text-gray600 hover:bg-gray300 p-2 rounded-xl transition-hover duration-300">
                 Serviços
             </button>
-            <button class="buttons-scroll header-btn font-semibold text-subtitle text-gray600 hover:bg-gray300 p-2 rounded-xl transition-hover duration-300">
+            <button onclick="scrollMoveDiv('Contato', event)" 
+            class="buttons-scroll header-btn font-semibold text-subtitle text-gray600 hover:bg-gray300 p-2 rounded-xl transition-hover duration-300">
                 Contato
             </button>
         </nav>
     </header>
+
+    <!-- <header class="w-full h-10 flex items-center p-5">
+        <button id="btn-menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#fff" viewBox="0 0 256 256"><path d="M224,128a8,8,0,0,1-8,8H40a8,8,0,0,1,0-16H216A8,8,0,0,1,224,128ZM40,72H216a8,8,0,0,0,0-16H40a8,8,0,0,0,0,16ZM216,184H40a8,8,0,0,0,0,16H216a8,8,0,0,0,0-16Z"></path></svg>
+        </button>
+    </header> -->
+
+        <div id="menu" class="menu-content flex fixed top-0 left-0 z-50 overflow-hidden border-r-red">
+            
+        </div>
 
     <div class="h-screen w-screen bg-intro bg-cover bg-center flex justify-center">
         <div class="flex flex-col items-center justify-center">
@@ -89,11 +102,6 @@
                     <span class="text-gray500">TypeScript</span>
                 </div>
 
-            </div>
-            <div class="flex items-center justify-center">
-                <button id="scroll-button" class="transition-opacity duration-300 hover:opacity-80 rounded-full p-2 hover:bg-gray300">
-                    <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="#fff" viewBox="0 0 256 256"><path d="M213.66,130.34a8,8,0,0,1,0,11.32l-80,80a8,8,0,0,1-11.32,0l-80-80a8,8,0,0,1,11.32-11.32L128,204.69l74.34-74.35A8,8,0,0,1,213.66,130.34Zm-91.32,11.32a8,8,0,0,0,11.32,0l80-80a8,8,0,0,0-11.32-11.32L128,124.69,53.66,50.34A8,8,0,0,0,42.34,61.66Z"></path></svg>
-                </button>
             </div>
         </div>
     </div>
@@ -294,7 +302,9 @@
                                 gabrielprestesperezjr@gmail.com
                             </span>
                         </div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#3996DB" viewBox="0 0 256 256"><path d="M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z"></path></svg>
+                        <div>
+                            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="#3996DB" viewBox="0 0 256 256"><path d="M200,64V168a8,8,0,0,1-16,0V83.31L69.66,197.66a8,8,0,0,1-11.32-11.32L172.69,72H88a8,8,0,0,1,0-16H192A8,8,0,0,1,200,64Z"></path></svg>
+                        </div>
                     </div>
                 </a>
             </div>
