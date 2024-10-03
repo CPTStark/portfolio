@@ -40,13 +40,6 @@ function removeClasseBtn(event) {
     event.target.classList.add('active-btn');
 }
 
-scrollButton.addEventListener('click', () => {
-    divTargetProjects.scrollIntoView({
-        behavior: "smooth",
-        block: "start"
-    })
-})
-
 const myObserver = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         if(entry.isIntersecting) {

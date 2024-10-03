@@ -88,7 +88,7 @@
 
 @media (max-width: 482px) {
     header nav {
-        margin-bottom: 40px;
+        margin-bottom: 40px !important;
     }
 }
 
@@ -131,18 +131,36 @@
     }
 }
 
-@media (max-height: 740px) {
+@media (max-height: 780px) {
     .desc-port {
         margin-bottom: 30px !important;
     }
+}
 
-    #scroll-button {
-        display: none !important;
+@media (max-height: 700px) {
+    .image-gabriel {
+        margin-top: 30px !important;
     }
 }
 
 @media (max-height: 667px) and (max-width: 375px) {
     .tecnologias {
         margin-bottom: 110px !important;
+    }
+}
+
+@media (max-height: 665px) {
+    .image-gabriel {
+        margin-top: 60px !important;
+    }
+}
+
+/* @media (max-height: 640px) and (max-width: 911px) {
+    
+} */
+ 
+@media (max-height: 630px) {
+    .image-gabriel {
+        margin-top: 80px !important;
     }
 }

@@ -667,6 +667,10 @@ video {
   height: 2.5rem;
 }
 
+.h-14 {
+  height: 3.5rem;
+}
+
 .h-\[103px\] {
   height: 103px;
 }
@@ -677,10 +681,6 @@ video {
 
 .h-screen {
   height: 100vh;
-}
-
-.h-14 {
-  height: 3.5rem;
 }
 
 .max-h-\[47rem\] {
@@ -1082,7 +1082,7 @@ video {
 
 @media (max-width: 482px) {
   header nav {
-    margin-bottom: 40px;
+    margin-bottom: 40px !important;
   }
 }
 
@@ -1124,19 +1124,37 @@ video {
   }
 }
 
-@media (max-height: 740px) {
+@media (max-height: 780px) {
   .desc-port {
     margin-bottom: 30px !important;
   }
+}
 
-  #scroll-button {
-    display: none !important;
+@media (max-height: 700px) {
+  .image-gabriel {
+    margin-top: 30px !important;
   }
 }
 
 @media (max-height: 667px) and (max-width: 375px) {
   .tecnologias {
     margin-bottom: 110px !important;
+  }
+}
+
+@media (max-height: 665px) {
+  .image-gabriel {
+    margin-top: 60px !important;
+  }
+}
+
+/* @media (max-height: 640px) and (max-width: 911px) {
+    
+} */
+
+@media (max-height: 630px) {
+  .image-gabriel {
+    margin-top: 80px !important;
   }
 }
 
