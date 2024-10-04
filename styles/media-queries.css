@@ -1,0 +1,120 @@
+@media (max-width: 910px) {
+    .desc-port {
+        max-width: 650px !important;
+    }
+
+    .tecnologias {
+        max-width: 650px !important;
+    }
+}
+
+@media (max-width: 770px) {
+    #projects {
+        height: auto !important;
+    }
+}
+
+@media (max-width: 675px) {
+    .desc-port {
+        max-width: 500px !important;
+    }
+
+    .title-first {
+        font-size: 40px !important;
+    }
+
+    .subtitle {
+        font-size: 16px !important;
+    }
+}
+
+@media (max-width: 620px) {
+    .tecnologias {
+        max-width: 490px !important;
+    }
+}
+
+@media (max-width: 520px) {
+    header > nav {
+        gap: 0.5rem !important;
+    }
+}
+
+@media (max-width: 482px) {
+    header nav {
+        margin-bottom: 40px !important;
+    }
+}
+
+@media (max-width: 455px) {
+    header nav .buttons-scroll {
+        font-size: 14px !important;
+    } 
+
+    .desc-port {
+        max-width: 300px !important;
+    }
+
+    .title-first {
+        font-size: 30px !important;
+    }
+
+    .subtitle {
+        font-size: 14px !important;
+    }
+
+    .title-contact {
+        max-width: 400px !important;
+    }
+
+}
+
+@media (max-width: 420px) {
+    .title-contact {
+        max-width: 350px !important;
+    }
+
+    .contact {
+        max-width: 350px !important;
+    }
+}
+
+@media (max-width: 370px) {
+    .subtitle {
+        font-size: 12px !important;
+    }
+}
+
+@media (max-height: 780px) {
+    .desc-port {
+        margin-bottom: 30px !important;
+    }
+}
+
+@media (max-height: 700px) {
+    .image-gabriel {
+        margin-top: 30px !important;
+    }
+}
+
+@media (max-height: 667px) and (max-width: 375px) {
+    .tecnologias {
+        margin-bottom: 110px !important;
+    }
+}
+
+@media (max-height: 665px) {
+    .image-gabriel {
+        margin-top: 60px !important;
+    }
+}
+
+/* @media (max-height: 640px) and (max-width: 911px) {
+    
+} */
+ 
+@media (max-height: 630px) {
+    .image-gabriel {
+        margin-top: 80px !important;
+    }
+}

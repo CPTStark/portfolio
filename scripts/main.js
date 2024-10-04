@@ -1,3 +1,4 @@
+const body = document.querySelector('body')
 const btnTop = document.getElementById('btn-top');
 const divTargetProjects = document.getElementById('projects');
 const divTargetServices = document.getElementById('services');
@@ -5,6 +6,8 @@ const divTargetContact = document.getElementById('contact');
 const scrollButton = document.getElementById('scroll-button');
 const btnMenu = document.getElementById('btn-menu');
 const menu = document.getElementById('menu');
+const btnEmail = document.getElementById('btn-email');
+const btnWhatsApp = document.getElementById('btn-zap');
 let isMenuOpen = false;
 let newDiv;
 
@@ -109,3 +112,65 @@ window.addEventListener('click', (ev) => {
         isMenuOpen = false;
     }
 });
+
+btnEmail.addEventListener('click', () => {
+    const elementsToCreate = [
+        {
+            tag: 'div',
+            attributes: {class: 'container'},
+            children: [
+                {
+                    tag: 'div',
+                    attributes: {class: 'modal'},
+                    children: [
+                        {
+                            tag: 'div',
+                            attributes: {class: 'header-modal'},
+                            children: [
+                                {
+                                    tag: 'h1',
+                                    content: 'E-mail',
+                                    attributes: {class: 'title-modal'}
+                                }
+                            ]
+                        },
+                        {
+                            tag: 'div',
+                            attributes: {class: 'main-modal'},
+                            children: []
+                        }
+                    ]
+                }
+            ],
+        }
+    ]
+})
+
+btnWhatsApp.addEventListener('click', () => {
+    
+
+    // window.open('https://api.whatsapp.com/send?phone=5511999999999
+})
+
+function createHtml (elements) {
+    const fragment = document.createDocumentFragment();
+
+    elements.forEach(({ tag, attributes = {}, content = '', children = [] }) => {
+        const element = document.createElement(tag)
+
+        for(let attr in attributes) {
+            element.setAttribute(attr, attributes[attr]);
+        }
+
+        if(typeof content === 'string') {
+            element.innerHTML = content;
+        }
+
+        if(children.length > 0) {
+            const childElements = createElements(children);
+            element.appendChild(childElements);
+        }
+
+        fragment.appendChild(element)
+    })
+} 
